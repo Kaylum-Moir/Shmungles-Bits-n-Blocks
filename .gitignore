@@ -1,0 +1,15 @@
+# Gradle
+.gradle/
+build/
+
+# Module-specific build directories
+**/build/
+
+# IntelliJ / JetBrains stuff
+.idea/
+*.iml
+
+# OS / misc
+.DS_Store
+*.log
+*.tmp
