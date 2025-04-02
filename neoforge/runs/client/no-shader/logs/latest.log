@@ -54,28 +54,28 @@
 [02Apr2025 19:39:35.235] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.3+5
 [02Apr2025 19:39:35.437] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.143, for MC 1.21.1
 [02Apr2025 19:39:35.607] [modloading-worker-0/INFO] [scena-forge/]: Initialized scena-forge
-[02Apr2025 19:39:35.634] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge/]: Initialized Chisels&Bits - Forge
-[02Apr2025 19:39:35.663] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
-[02Apr2025 19:39:35.672] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModBlocks/]: Loaded block configuration.
-[02Apr2025 19:39:35.675] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
-[02Apr2025 19:39:35.706] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChiselModes/]: Loaded chisel mode configuration.
-[02Apr2025 19:39:35.707] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModContainerTypes/]: Loaded container type configuration.
-[02Apr2025 19:39:35.709] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModCreativeTabs/]: Loaded item group configuration.
-[02Apr2025 19:39:35.721] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModItems/]: Loaded item configuration.
-[02Apr2025 19:39:35.724] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
-[02Apr2025 19:39:35.726] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModelProperties/]: Loaded model property configuration.
-[02Apr2025 19:39:35.728] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperation/]: Loaded modification operation configuration.
-[02Apr2025 19:39:35.729] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
-[02Apr2025 19:39:35.733] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
-[02Apr2025 19:39:35.734] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
-[02Apr2025 19:39:35.734] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModTags/]: Loaded tag configuration.
-[02Apr2025 19:39:35.735] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModRecipeTypes/]: Registering recipe types.
-[02Apr2025 19:39:35.741] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModChangeTypes/]: Loaded change type configuration.
-[02Apr2025 19:39:35.762] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModMultiStateSnapshotTypes/]: Loaded change type configuration.
-[02Apr2025 19:39:35.764] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModDataComponentTypes/]: Loaded data component types.
-[02Apr2025 19:39:35.765] [modloading-worker-0/INFO] [mod.chiselsandbits.registrars.ModEventHandler/]: Registering event handlers
-[02Apr2025 19:39:35.783] [modloading-worker-0/INFO] [mod.chiselsandbits.forge.Forge/]: Initialized Chisels&Bits-Forge client
-[02Apr2025 19:39:36.269] [Render thread/INFO] [mod.chiselsandbits.client.reloading.ClientResourceReloadingManager/]: Setting up client reloading resource manager.
+[02Apr2025 19:39:35.634] [modloading-worker-0/INFO] [mod.bitsnblocks.forge.Forge/]: Initialized Chisels&Bits - Forge
+[02Apr2025 19:39:35.663] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModBlockEntityTypes/]: Loaded block entity configuration.
+[02Apr2025 19:39:35.672] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModBlocks/]: Loaded block configuration.
+[02Apr2025 19:39:35.675] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModChiselModeGroups/]: Loaded chisel mode group configuration.
+[02Apr2025 19:39:35.706] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModChiselModes/]: Loaded chisel mode configuration.
+[02Apr2025 19:39:35.707] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModContainerTypes/]: Loaded container type configuration.
+[02Apr2025 19:39:35.709] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModCreativeTabs/]: Loaded item group configuration.
+[02Apr2025 19:39:35.721] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModItems/]: Loaded item configuration.
+[02Apr2025 19:39:35.724] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModMetadataKeys/]: Loaded metadata key configuration.
+[02Apr2025 19:39:35.726] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModModelProperties/]: Loaded model property configuration.
+[02Apr2025 19:39:35.728] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModModificationOperation/]: Loaded modification operation configuration.
+[02Apr2025 19:39:35.729] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModModificationOperationGroups/]: Loaded modification operation group configuration.
+[02Apr2025 19:39:35.733] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModPatternPlacementTypes/]: Loaded pattern placement type configuration.
+[02Apr2025 19:39:35.734] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModRecipeSerializers/]: Loaded recipe serializer configuration.
+[02Apr2025 19:39:35.734] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModTags/]: Loaded tag configuration.
+[02Apr2025 19:39:35.735] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModRecipeTypes/]: Registering recipe types.
+[02Apr2025 19:39:35.741] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModChangeTypes/]: Loaded change type configuration.
+[02Apr2025 19:39:35.762] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModMultiStateSnapshotTypes/]: Loaded change type configuration.
+[02Apr2025 19:39:35.764] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModDataComponentTypes/]: Loaded data component types.
+[02Apr2025 19:39:35.765] [modloading-worker-0/INFO] [mod.bitsnblocks.registrars.ModEventHandler/]: Registering event handlers
+[02Apr2025 19:39:35.783] [modloading-worker-0/INFO] [mod.bitsnblocks.forge.Forge/]: Initialized Chisels&Bits-Forge client
+[02Apr2025 19:39:36.269] [Render thread/INFO] [mod.bitsnblocks.client.reloading.ClientResourceReloadingManager/]: Setting up client reloading resource manager.
 [02Apr2025 19:39:36.492] [Render thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: []
 [02Apr2025 19:39:36.620] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources, mod/item_asset_export, mod/neoforge, mod/saeculariacaudices, mod/scena, mod/chiselsandbits, chiselsandbits-core
 [02Apr2025 19:39:36.689] [Worker-Main-4/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.1.05.hex, loading
@@ -86,8 +86,8 @@
 [02Apr2025 19:39:38.116] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
 [02Apr2025 19:39:38.158] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (M-Audio M-Track Solo and Duo)
 [02Apr2025 19:39:38.159] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[02Apr2025 19:39:38.310] [Render thread/INFO] [mod.chiselsandbits.client.reloading.ClientResourceReloadingManager/]: Resetting client caches
-[02Apr2025 19:39:38.312] [Render thread/INFO] [mod.chiselsandbits.reloading.DataReloadingResourceManager/]: Resetting common caches
+[02Apr2025 19:39:38.310] [Render thread/INFO] [mod.bitsnblocks.client.reloading.ClientResourceReloadingManager/]: Resetting client caches
+[02Apr2025 19:39:38.312] [Render thread/INFO] [mod.bitsnblocks.reloading.DataReloadingResourceManager/]: Resetting common caches
 [02Apr2025 19:39:38.312] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 chiselsandbits:textures/atlases/icons.png-atlas
 [02Apr2025 19:39:38.313] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
 [02Apr2025 19:39:38.319] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
