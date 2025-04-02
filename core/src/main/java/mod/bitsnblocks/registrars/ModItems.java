@@ -8,7 +8,6 @@ import mod.bitsnblocks.compact.legacy.LegacyMaterialManager;
 import mod.bitsnblocks.compact.legacy.MateriallyChiseledConversionItem;
 import mod.bitsnblocks.item.BitBagItem;
 import mod.bitsnblocks.item.BitStorageBlockItem;
-import mod.bitsnblocks.item.ChiselItem;
 import mod.bitsnblocks.item.ChiseledBlockItem;
 import mod.bitsnblocks.item.MagnifyingGlassItem;
 import mod.bitsnblocks.item.MeasuringTapeItem;
@@ -23,7 +22,6 @@ import mod.bitsnblocks.item.bit.BitItem;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.Tiers;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -32,17 +30,7 @@ import java.util.List;
 public final class ModItems {
     private static final Logger LOGGER = LogManager.getLogger();
     private final static IRegistrar<Item> ITEM_REGISTRAR = IRegistrar.create(Registries.ITEM, Constants.MOD_ID);
-    public static final IRegistryObject<ChiselItem> ITEM_CHISEL_STONE =
-            ITEM_REGISTRAR.register("chisel_stone", () -> new ChiselItem(Tiers.STONE, new Item.Properties().stacksTo(1)));
-    public static final IRegistryObject<ChiselItem> ITEM_CHISEL_IRON =
-            ITEM_REGISTRAR.register("chisel_iron", () -> new ChiselItem(Tiers.IRON, new Item.Properties().stacksTo(1)));
-    public static final IRegistryObject<ChiselItem> ITEM_CHISEL_GOLD =
-            ITEM_REGISTRAR.register("chisel_gold", () -> new ChiselItem(Tiers.GOLD, new Item.Properties().stacksTo(1)));
-    public static final IRegistryObject<ChiselItem> ITEM_CHISEL_DIAMOND =
-            ITEM_REGISTRAR.register("chisel_diamond", () -> new ChiselItem(Tiers.DIAMOND, new Item.Properties().stacksTo(1)));
-    public static final IRegistryObject<ChiselItem> ITEM_CHISEL_NETHERITE =
-            ITEM_REGISTRAR.register("chisel_netherite", () -> new ChiselItem(Tiers.NETHERITE, new Item.Properties().stacksTo(1)));
-    public static final IRegistryObject<BitItem> ITEM_BLOCK_BIT =
+        public static final IRegistryObject<BitItem> ITEM_BLOCK_BIT =
             ITEM_REGISTRAR.register("block_bit", () -> new BitItem(new Item.Properties()));
     public static final IRegistryObject<MagnifyingGlassItem> MAGNIFYING_GLASS =
             ITEM_REGISTRAR.register("magnifying_glass", () -> new MagnifyingGlassItem(new Item.Properties()));
